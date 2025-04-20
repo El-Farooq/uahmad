@@ -114,18 +114,7 @@
 
     }; // end ssMobileMenu
 
-    function toggleReadMore() {
-        const moreContent = document.getElementById("moreContent");
-        const button = document.getElementById("readMoreBtn");
     
-        if (moreContent.style.display === "none") {
-          moreContent.style.display = "block";
-          button.textContent = "Read Less";
-        } else {
-          moreContent.style.display = "none";
-          button.textContent = "Read More";
-        }
-      }
 
 
    /* highlight active menu link on pagescroll
